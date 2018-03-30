@@ -1,0 +1,228 @@
+/* CSS Document */
+*{
+	margin:0;   padding:0;
+		}
+img{
+	border:0;
+	}
+body{
+	background:#edece8 url(../images/bg-head.jpg) center top no-repeat;
+	}
+#slider{
+	background: #b5b5b5;
+	border: 1px solid #3f282f;
+	height: 266px;
+	margin-top: 0px;
+	width: 927px;
+	overflow: hidden;
+	position: relative;
+	margin: 15px auto 25px;
+}
+
+#cyclePager{
+	position: absolute;
+	height: 18px;
+	overflow: hidden;
+	right: 20px;
+	bottom: 20px;
+	z-index: 99;
+}
+
+	#cyclePager a{
+		background: transparent url(../images/pager-gal.png) 0 0 no-repeat;
+		display: block;
+		float: left;
+		height: 17px;
+		margin-left: 10px;
+		text-indent: -9999px;
+		width: 17px;
+	}
+
+	#cyclePager a:hover,
+	#cyclePager a.activeSlide{background-position: -17px 0;}
+.main{
+	width:970px; margin:0 auto;
+	}
+	header{
+		height:250px;
+		}
+			header h2{
+				font:normal 24px   "Century Gothic";   float:left;   color:#3f282f; margin-top:10px;
+				}
+			header a{
+				font:normal 26px   "Century Gothic";   float:right;   color:#716b5b; text-decoration:none; margin:20px 10px 0 0;
+				}
+			header a span{
+				color:#a73700; 
+				}
+			nav{
+				overflow:hidden;   list-style:none;   background:#3f282f;
+				border-radius: 15px 15px 0 0;
+				-moz-border-radius: 15px 15px 0 0;
+				-webkit-border-radius: 15px 15px 0 0;
+				}
+			nav li{
+				list-style: none;
+				float:left; background : url(../images/bg-menu.jpg)  left center no-repeat;
+				padding:15px 35px;
+				}
+			nav li:first-child{
+				float:left; background:none;  padding:15px 35px;
+				}
+				nav li a{
+					font:18px "Century Gothic";  color:#fff; text-decoration:none;
+					}
+				nav li a:hover{
+					font:18px "Century Gothic";  color:#fff; text-decoration:underline;
+					}
+	.search-main{
+		float:right;   margin: 0 25px 0 0;
+		}
+		.serch-txt{
+			position:relative;  top:5px;
+			height: 23px; background:#; border:1px solid #fff; 
+			width:230px; margin: 0 11px 0 0; 
+			border-radius: 2px; 
+			-moz-border-radius: 2px; 
+			-webkit-border-radius: 2px;
+			}
+		.serch-btn{
+			position:relative;  top:14px;
+			}
+	.content-main
+	          {
+	     background:#f7f7f7; border:1px solid #fff; overflow:hidden; 
+		border-radius: 15px;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		}
+.content
+	{
+	width:700px; float: left; margin: 0 0 0 20px;
+	} 
+	.post-main
+	{
+		background:#f5f5f5; border:1px solid #e7e2e3; margin:0 0 20px 0;
+			border-radius: 8px;
+			-moz-border-radius: 8px;
+			-webkit-border-radius: 8px;
+		}
+	.post-main h1
+	{
+		background:#e2e0e1; font:normal 24px Verdana; color:#3f282f; padding: 5px 0 8px 15px; margin: 0 0 5px 0;
+				border-radius: 8px 8px 0 0;
+				-moz-border-radius: 8px 8px 0 0;
+				-webkit-border-radius: 8px 8px 0 0;
+		}
+	.post-main h1 a
+	{
+		font:normal 24px Verdana; color:#3f282f; text-decoration:none;
+		} 
+	.post-main h1 a:hover
+	{
+		font:normal 24px Verdana; color:#3f282f; text-decoration:underline;
+		}
+		.post-main h1 span
+		{
+		font:normal 12px Verdana; color:#b8a6ab;
+		}		
+	.imgstyle{
+	float:left; margin:0 15px 15px 0;} 
+	.post{
+		margin: 0 15px 15px;
+	}
+	.post p{
+	font:12px Verdana; margin: 0 0 15px; 
+	}
+	.post p a{
+	color:#3f282f; text-decoration:underline;
+	}
+	.post p a:hover{
+	color:#3f282f; text-decoration:none;
+	}    
+			
+.sidebar{
+	float:left; margin: 0 0 0 20px; width: 207px;
+	}
+.vidget{
+	background:#e7e2e3; margin:0 0 20px 0; border:1px solid #d7d3d4;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	}	
+	.vidget h2{	
+		background:#3f282f; color:#fff; font:18px "Century Gothic"; text-align:center; padding:5px 0;
+		border-radius: 8px 8px 0 0;
+		-moz-border-radius: 8px 8px 0 0;
+		-webkit-border-radius: 8px 8px 0 0;
+		}	
+		.vidget h4{	
+		background:#3f282f; color:#fff; font:18px "Century Gothic"; text-align:center; padding:5px 0;
+		border-radius: 8px 8px 0 0;
+		-moz-border-radius: 8px 8px 0 0;
+		-webkit-border-radius: 8px 8px 0 0;
+		}	
+	.vidget ul{
+		list-style:none; padding:25px 15px;
+		}	
+		.vidget ul li{
+			border-bottom:1px solid #c8bbbd; border-top:1px solid #fff; padding: 5px 0 5px 20px;
+			}
+		.vidget ul li:first-child{
+			border-top:none;
+			}
+		.vidget ul li:last-child{
+			border-bottom:none;
+			}		
+			.vidget ul li a{
+				color:#000; font:14px "Century Gothic";
+				}
+			.vidget ul li a:hover{
+				color:#000; font:14px "Century Gothic"; text-decoration:none;
+				}
+	.footer{
+	overflow:hidden; padding: 30px 25px;
+	}
+	.cpy{
+		float:left;
+		}					
+	.cpy a{
+		font:normal 26px "Century Gothic"; color:#716b5b; text-decoration:none; margin:20px 10px 0 0;
+		}	
+	.cpy a span{
+		color:#a73700;
+		}
+	.cpy p{
+		font:14px verdana; color:#000; line-height:1.1; margin:10px 0 0 0;
+		}		
+	.menu-foot{
+		float:left; margin: 0 0 0 175px;
+		}	
+		.menu-foot h2{
+			font:normal 24px "Century Gothic"; color:#3f282f;
+			}
+		.menu-foot ul{
+			list-style:none;
+			}	
+			.menu-foot ul li{
+				list-style:none;
+				}	
+				.menu-foot ul li a{
+					font:14px "Century Gothic"; color:#000;
+					}
+				.menu-foot ul li a:hover{
+					font:14px "Century Gothic"; color:#000; text-decoration:none;
+					}	
+		
+
+			/* CSS3 decorations */
+
+			body
+			{
+				-webkit-box-shadow: inset 0 0 18.75em rgba( 0, 0, 0, .5 ); /* 300 */
+				-moz-box-shadow: inset 0 0 18.75em rgba( 0, 0, 0, 5 ); /* 300 */
+				box-shadow: inset 0 0 18.75em rgba( 0, 0, 0, .5 ); /* 300 */
+			}
+			
+
+		

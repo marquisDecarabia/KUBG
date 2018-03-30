@@ -1,0 +1,152 @@
+<!DOCTYPE html">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/default0.css" media="all" />
+		<script src="js/jquery-1.js"></script>
+		<script src="js/jquery00.js"></script>
+		<script src="js/init0000.js"></script>
+<title>Контактная анкета</title>
+</head>
+
+<body>
+<div class="main">
+	
+	<header>
+		<h2>Выбери своё <br />Путешествие</h2>
+		<a href="index.html"><span>C</span>hooce <span>T</span>ravel</a>
+		</header>
+	
+		<div class="content-main">
+			<nav> 
+				<ul>
+					<li><a href="index.html">Главная</a></li> 
+					<li><a href="author.html">Aвтор</a></li> 
+					<li><a href="contact.html">Kонтакты</a></li>
+					<form class="search-main" action="" method="" >
+					<input class="serch-txt" type="text" name="search" />
+					<input class="serch-btn" type="image" src="images/search.jpg" />
+					</form>
+				</ul>
+			</nav> 
+		
+		<div id="slider">
+		<ul id="cycle">
+			<li><img src="images/galery.jpg" height="266" width="927" alt="slides" /> </li>
+			<li><img src="images/kollzey.jpg" height="266" width="927" alt="slides" /> </li>
+			<li><img src="images/piramide.jpg" height="266" width="927" alt="slides" /> </li>
+		</ul>
+	  	<div id="cyclePager"></div>
+		</div>
+		<div class="content">
+			<div class="post-main">
+				<h1><a href="#">Ненасильное анкетирование</a> <span>(13.05.2016)</span></h1>
+				<div class="post">
+  <p><i>Пожалуйста, заполните форму. Обязательные поля помечены</i><em>*</em></p></br>
+  <fieldset>
+    <legend>Контактная информация</legend>
+      <label for="name">Имя <em>   *</em></label>
+      <input id="name" placeholder="Иван Иванов" autofocus required><br>
+      <label for="telephone">Телефон</label>
+      <input id="telephone" placeholder="+38(хxx)xxx-xx-xx"><br>
+      <label for="email">Email <em>  *</em></label>
+      <input id="email" required pattern="\S+@[a-z]+.[a-z]+"><br>
+  </fieldset></br>
+  <fieldset>
+    <legend>Персональная информация</legend>
+      <label for="age">Возраст<em>*</em></label>
+      <input id="age" type="date" min="1900-01-01" max="2010-01-01" required><br>
+      <label for="gender">Пол</label>
+      <select id="gender">
+        <option value="female">Женщина</option>
+        <option value="male">Мужчина</option>
+      </select><br>
+      <label for="comments">Перечислите личные качества</label>
+      <textarea id="comments" oninput="validateComments(this)" spellcheck="true"></textarea>
+  </fieldset></br>
+
+  <fieldset>
+    <legend>Выберите ваших любимых животных</legend>
+    <label for="zebra"><input id="zebra" type="checkbox"> Кошка</label>
+    <label for="cat"><input id="cat" type="checkbox"> Собака</label>
+    <label for="anaconda"><input id="anaconda" type="checkbox"> Змея</label>
+    <label for="human"><input id="human" type="checkbox"> Лисичка</label>
+
+  </fieldset></br>
+  <fieldset>
+     <legend>Выберите любимый фрукт</legend>
+     <datalist id="dl_fruits">
+        <span class="Label">Выберите из списка:</span>
+        <select id="favoriteFruite">
+           <option label="Яблоко" value="apple">
+           <option label="Банан" value="banana">
+           <option label="Абрикос" value="apricot">
+           <option label="Арбуз" value="watermellon">
+           <option label="Мандарин" value="mandarin">
+           <option label="Апельсин" value="orange">
+        </select>
+        <br>
+        <span class="Label">Или введите вручную:</span>
+     </datalist>
+     <input id="fruit" list="dl_fruits">
+</fieldset>
+  <p><a href="thanks.html"><input type="submit" value="Отправить информацию"></a></p>
+
+				</div>
+			</div>
+</div>
+			<div class="sidebar">
+			<div class="vidget">
+				<h2> Категории </h2> 
+				<ul>
+					<li><a href="#">Италия </a></li>
+					<li><a href="#">Гериания </a></li>
+					<li><a href="#">Франция</a></li>
+					<li><a href="#">Великобритания</a></li>
+					<li><a href="#">Египет</a></li>
+					<li><a href="#">ОАЭ</a></li>
+				</ul>
+			</div>
+			<object data="http://htmlka.com/wp-content/uploads/2009/07/player2.swf" 
+			type="application/x-shockwave-flash" width=220 height=50>
+			<param value="http://htmlka.com/wp-content/uploads/2009/07/player2.swf" name="movie"> 
+			<param value="loop=no&amp;autostart=no&amp;soundfile=http://cs7-1v4.vk-cdn.net/p8/97a9dbdb0449b3.mp3?extra=RnLuM_lQ5t5jWBmuAYby1sbhmI6OB8qJnedKSsadF0FeZq5nVvkiMsZ5X23fTkcfPJ1-el1UpB_0CxeD55XgqFmluctiX78&amp;" name="flashvars">
+			<param value="false" name="menu">
+			</object>
+		</div>
+			</div>
+			
+			<div class="footer"> 
+			<div class="cpy">
+				<a href="#"><span>C</span>hoose <span>T</span>ravel </a> 
+				<p>	MSWDN 2016 <br/> 
+						Права не защищены.<br/> 
+						INb-1-14-4.0d
+						Kriukova Daria </p> 
+			</div> 
+			<div class="menu-foot">
+				<h2>Категории</h2> 
+					<ul>
+						<li><a href="#">Италия </a></li> 
+						<li><a href="#">Гернания </a></li> 
+						<li><a href="#">Франция </a></li> 
+						<li><a href="#">Великобритания </a></li> 
+						<li><a href="#">Египет </a></li> 
+					</ul> 
+			</div>
+			<div class="menu-foot"> 
+				<h2>      Страницы   </h2> 
+					<ul>
+						<li><a href="index.html"> Главная </a></li> 
+						<li><a href="author.html"> Автор </a></li> 
+						<li><a href="contact.html"> Контакты </a></li> 
+					</ul> 
+			</div> 
+		</div>
+		
+		
+		
+	</div> 
+</body> 
+</html>
