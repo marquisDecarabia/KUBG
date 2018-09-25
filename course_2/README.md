@@ -1,4 +1,4 @@
-### В основном сохранились только 2 проекта из дисциплины "Веб-дизайн и веб-программирование".
+### 2 projects (tasks) from "web-design & development" university course.
 
- - travel_blog - сайт-блог о путешествиях
- - business_card_anna_kolobova - сайт для фотографа-одногруппницы 
+ - travel_blog - small blog about traveling. all articles are piece of cake
+ - business_card_anna_kolobova - photographer portfolio website for my university friend 
