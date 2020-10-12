@@ -1,3 +1,3 @@
 
-There are some code I wrote during 2 courses in my university (Borys Grinchenko Kyiv University - KUBG). 
+Those labs I wrote during 2 courses in my university. 
 
